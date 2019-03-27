@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan|ZCOOL+XiaoWei');
+
+:root {
+    --main-color: white;
+    font-family: 'Baloo Chettan', cursive;
+}
+
+h1,h2,h3,p,div {
+    margin: 0;
+    padding: 0;
+}
+
+header .toolbar {
+    padding: 0;
+}
+
+header .toolbar {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+header .toolbar li {
+    font-size: 3rem;
+    display: inline;
+    list-style-type: none;
+}
+
+header .toolbar li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--main-color);
+}
+
+header .toolbar li a:hover {
+    text-decoration: underline;
+}
+
+header .banner {
+    background-image: url(../img/emblemb.jpg);
+    min-height: 1000px;
+    background-size: cover;
+    background-position: center;
+}

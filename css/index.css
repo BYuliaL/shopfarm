@@ -1,35 +1,79 @@
-@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan|Raleway|ZCOOL+XiaoWei');
+@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan|ZCOOL+XiaoWei');
 
 :root {
     --main-color: white;
+    font-family: 'Baloo Chettan', cursive;
 }
-  
+
 body {
     max-width: 1000px;
     margin: auto;
-    background-color: black
-    } 
-  
-h1, h2, h3, p, div {
+    background-color: black;
+}
+
+h1,h2,h3,p,div {
     margin: 0;
     padding: 0;
 }
 
-header .toolbar {
-    padding: 0;
+main {
+    color: var(--main-color);
+    font-family: 'Baloo Chettan', cursive;
 }
 
-header .toolbar li {
-    display: inline;
-    list-style-type: none;
+main .home_1 {
+    background-image: url(../img/family.jpg);
+    min-height: 800px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-header .toolbar li a {
-    text-decoration: none;
-    text-transform: uppercase;
-    color: var(--main-color)
+main .home_2 {
+    background-image: url(../img/farme.jpg);
+    min-height: 800px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-header .toolbar li a:hover {
-    text-decoration: underline;
+main .home_3 {
+    background-image: url(../img/ingredients.jpg);
+    min-height: 800px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+main .home_4 {
+    background-image: url(../img/process.jpg);
+    min-height: 800px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .headline {
+    font-size: 6rem;
+    align-items: center;
+    justify-content: center;
+}
+
+main .subtitle {
+    font-size: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+main .home_5 {
+    padding: 100px;
+}
+
