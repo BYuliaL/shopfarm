@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>farm_2_brothers</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">ГОЛОВНА</a>
+            <a href="store.html">КРАМНИЦЯ</a>
+            <a href="#contacts">КОНТАКТИ</a>
+        </nav>
+    </header>
+    <main>
+        <div id="contacts">
+            <h3>НАШІ КОНТАКТИ</h3>
+            <ul>
+                <li>Михайло +380970856721<br/> Любава +380676003581<br/>Кирилл +380981709791</li>
+                <li> farm2brothers@gmail.com</li>
+                <li>farm_2_brothers</li>
+            </ul>
+        </div>
+        <img src="img/write.jpg" alt="Напишіть нам" class="contacts_picture">
+        <h4>Напишіть нам</h4>
+        <form method="POST" action="https://formspree.io/yuliabandura@gmail.com">
+            <label class="forma" for="name">
+                 Ваше імя
+                 <input id="name" name="name" type="text" required>
+            </label><br/>
+            <label class="forma">
+                 E-mail <input name="E-mail" type="email" required>
+            </label><br/>
+            <label>
+                 Номер телефону <input type="tel" name="tel" value size="40" required>
+            </label><br/>
+            <div>
+                <label for="message">Ваше повідомлення:</label>
+                <textarea id="message" name="your message" rows="7" cols="33">
+                </textarea>
+            </div>
+            <input type="Submit">
+        </form>
+
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>

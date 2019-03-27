@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan|Raleway|ZCOOL+XiaoWei');
+
+:root {
+    --main-color: white;
+}
+  
+body {
+    max-width: 1000px;
+    margin: auto;
+    background-color: black
+    } 
+  
+h1, h2, h3, p, div {
+    margin: 0;
+    padding: 0;
+}
+
+header .toolbar {
+    padding: 0;
+}
+
+header .toolbar li {
+    display: inline;
+    list-style-type: none;
+}
+
+header .toolbar li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--main-color)
+}
+
+header .toolbar li a:hover {
+    text-decoration: underline;
+}
