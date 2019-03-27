@@ -6,7 +6,7 @@
 body {
     max-width: 1000px;
     margin: auto;
-    background-color: black;
+    background-color: saddlebrown;
 }
 
 h1,h2,h3,p,div {
@@ -17,4 +17,34 @@ h1,h2,h3,p,div {
 main {
     color: var(--main-color);
     font-family: 'Baloo Chettan', cursive;
+}
+
+main .yogurt {
+    background-image: url(../img/yogurt.jpg);
+    min-height: 800px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+main .cheese_labne {
+    background-image: url(../img/labne.jpg);
+    min-height: 800px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+main .koffito {
+    background-image: url(../img/koffito.jpg);
+    min-height: 800px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
