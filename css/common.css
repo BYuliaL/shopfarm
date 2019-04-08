@@ -21,7 +21,7 @@ header .toolbar {
 }
 
 header .toolbar li {
-    font-size: 3rem;
+    font-size: 2rem;
     display: inline;
     list-style-type: none;
 }
