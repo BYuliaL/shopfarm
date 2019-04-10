@@ -88,5 +88,10 @@ main .subtitle {
 
 main .home_5 {
     padding: 100px;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
 }
 
