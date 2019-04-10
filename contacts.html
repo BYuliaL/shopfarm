@@ -1,19 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>farm_2_brothers</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/contacts.css">
 </head>
 
 <body>
+
     <header>
         <nav>
             <ul class="toolbar">
+                <li> <img src="img/emblemw.jpg" width="50" height="50" alt="Емблема"></li>
                 <li><a href="index.html">ГОЛОВНА</a></li>
                 <li><a href="store.html">КРАМНИЦЯ</a></li>
                 <li><a href="#contacts">КОНТАКТИ</a></li>
@@ -21,41 +24,52 @@
         </nav>
     </header>
 
-    <main>
-        <div id="contacts">
-            <h3>НАШІ КОНТАКТИ</h3>
-            <ul>
-                <li>Михайло +380970856721<br/> Любава +380676003581<br/>Кирилл +380981709791</li>
-                <li> farm2brothers@gmail.com</li>
-                <li>farm_2_brothers</li>
-            </ul>
-        </div>
-        <img src="img/write.jpg" alt="Напишіть нам" class="contacts_picture">
-        <h4>Напишіть нам</h4>
-        <form method="POST" action="https://formspree.io/yuliabandura@gmail.com">
-            <label class="forma" for="name">
-                 Ваше імя
-                 <input id="name" name="name" type="text" required>
-            </label><br/>
-            <label class="forma">
-                 E-mail <input name="E-mail" type="email" required>
-            </label><br/>
-            <label>
-                 Номер телефону <input type="tel" name="tel" value size="40" required>
-            </label><br/>
-            <div>
-                <label for="message">Ваше повідомлення:</label>
-                <textarea id="message" name="your message" rows="7" cols="33">
-                </textarea>
+    <div class="container">
+        <main>
+            <div class="contacts">
+                <h3>Наші контакти:</h3>
+                <ul>
+                    <li>Михайло +380970856721<br/> Любава +380676003581<br/>Кирилл +380981709791</li>
+                    <li> farm2brothers@gmail.com</li>
+                    <li>farm_2_brothers</li>
+                </ul>
             </div>
-            <input type="Submit">
-        </form>
 
+            <h3>Напишіть нам:</h3>
+            <form method="POST" action="https://formspree.io/yuliabandura@gmail.com">
+                <div class="form-group">
+                    <label for="inputFirstName">Ваше ім'я</label>
+                    <input type="text" class="form-control" id="inputFirstName" aria-describedby="nameHelp" placeholder="Введіть ім'я">
+                    <small id="nameHelp" class="form-text text-muted">Ми ніколи не надаватимемо вашу особисту інформацію іншим користувачам.</small>
+                </div>
+                <div class="form-group">
+                    <label for="inputEmail1">Email</label>
+                    <input type="email" class="form-control" id="inputEmail1" aria-describedby="emailHelp" placeholder="Введіть Еmail">
+                    <small id="emailHelp" class="form-text text-muted">Ми ніколи не надаватимемо вашу електронну пошту іншим користувачам.</small>
+                </div>
+                <div class="form-group">
+                    <label for="inputMobile">Номер телефону</label>
+                    <input type="tel" class="form-control" id="inputMobile" aria-describedby="mobileHelp" placeholder="Введіть номер телефону">
+                    <small id="mobileHelp" class="form-text text-muted">Ми ніколи не надаватимемо ваш номер телефону іншим користувачам.</small>
+                </div>
+                <div class="form-group">
+                    <label for="validationTextarea">Ваше повідомлення</label>
+                    <textarea class="form-control is-invalid" placeholder="Напишіть Ваше повідомлення" required></textarea>
+                    <div>
+                        <small id="mobileHelp" class="form-text text-muted">Будь ласка, напишіть вище Ваші прохання, пропозиції, побажання.</small>
+                    </div>
+                </div>
 
-    </main>
-    <footer>
+                <button type="submit" class="btn btn-primary">Надіслати</button>
+            </form>
+        </main>
+        <footer>
 
-    </footer>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>

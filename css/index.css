@@ -2,7 +2,7 @@
 
 :root {
     --main-color: white;
-    font-family: 'Baloo Chettan', cursive;
+   font-family: 'PT Sans Caption', sans-serif;
 }
 
 body {
@@ -27,51 +27,55 @@ header .banner {
 
 main {
     color: var(--main-color);
-    font-family: 'Baloo Chettan', cursive;
+    font-family: 'PT Sans Caption', sans-serif;
 }
 
 main .home_1 {
     background-image: url(../img/family.jpg);
-    min-height: 800px;
+    min-height: 100vh;
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-repeat: no-repeat;
 }
 
 main .home_2 {
     background-image: url(../img/farme.jpg);
-    min-height: 800px;
+    min-height: 100vh;
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-repeat: no-repeat;
 }
 
 main .home_3 {
     background-image: url(../img/ingredients.jpg);
-    min-height: 800px;
+    min-height: 100vh;
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-repeat: no-repeat;
 }
 
 main .home_4 {
     background-image: url(../img/process.jpg);
-    min-height: 800px;
+    min-height: 100vh;
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-repeat: no-repeat;
 }
 
 main .headline {
-    font-size: 6rem;
+    font-size: 2rem;
     align-items: center;
     justify-content: center;
 }

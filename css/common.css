@@ -1,11 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan|ZCOOL+XiaoWei');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Caption');
 
 :root {
     --main-color: white;
-    font-family: 'Baloo Chettan', cursive;
+    font-family: 'PT Sans Caption', sans-serif;
 }
 
-h1,h2,h3,p,div {
+h1,
+h2,
+h3,
+p,
+div {
     margin: 0;
     padding: 0;
 }
@@ -35,4 +39,3 @@ header .toolbar li a {
 header .toolbar li a:hover {
     text-decoration: underline;
 }
-
