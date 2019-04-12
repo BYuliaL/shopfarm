@@ -88,7 +88,7 @@ main .subtitle {
     font-size: 3rem;
     padding-left: 10px;
     text-align: center;
-    padding-top: 0px;
+    padding-top: 40px;
 
 }
 
@@ -99,8 +99,4 @@ main .home_5 {
     align-items: center;
     justify-content: center;
     background-repeat: no-repeat;
-}
-
-.home_5 .subtitle {
-    padding-top: 40px;
 }

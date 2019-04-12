@@ -18,13 +18,16 @@ main {
     color: var(--main-color);
     font-family: 'Baloo Chettan', cursive;
 }
-footer {
-    color: 
-}
+
 main .contacts {
     justify-content: center;
 }
 
 .form-control is-invalid {
     padding: 0;
+}
+
+.buttom {
+    display: flex;
+   justify-content: center;
 }
