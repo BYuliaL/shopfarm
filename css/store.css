@@ -1,6 +1,7 @@
 :root {
     --main-color: white;
-    font-family: 'Baloo Chettan', cursive;
+    --secodary-color: black;
+    font-family: 'PT Sans Caption', sans-serif;
 }
 
 body {
@@ -20,17 +21,28 @@ div {
 
 main {
     color: var(--main-color);
-    font-family: 'Baloo Chettan', cursive;
+    font-family: 'PT Sans Caption', sans-serif;
 }
 
 main .yogurt {
     background-image: url(../img/yogurt.jpg);
-    min-height: 800px;
-    background-size: cover;
-    background-position: center;
+    min-height: 500px;
     display: flex;
-    align-items: center;
-    justify-content: flex-start;
+    background-position: center;
+    align-items: flex-end;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.productt {
+    color: var(--secodary-color);
+    font-size: 4rem;
+    padding: 40px;
+}
+
+.product-list_1 {
+    padding-top: 10px;
 }
 
 .product-card img {
@@ -45,40 +57,67 @@ main .yogurt {
 
 main .cheese_labne {
     background-image: url(../img/labne.jpg);
-    min-height: 800px;
+    min-height: 500px;
     background-size: cover;
     background-position: center;
     display: flex;
-    align-items: center;
-    justify-content: flex-start;
+    align-items: flex-end;
+    justify-content: center;
 }
 
-main .koffito {
-    background-image: url(../img/koffito.jpg);
-    min-height: 800px;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
+.product-list_2 {
+    padding-top: 10px;
 }
+
 
 @media (min-width: 480px) {
     .product-list_1 {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
         grid-gap: 5px;
     }
+}
 
+@media (min-width: 700px) {
+    .product-list_1 {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+
+.card-title,
+.card-text {
+    font-size: 1rem;
+    margin: auto;
+    text-align: center
+}
+
+.button {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-dark {
+    background-color: black;
+    margin-left: 5px;
+}
+
+.card-title {
+    text-transform: uppercase;
+}
+
+@media (min-width: 480px) {
     .product-list_2 {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
         grid-gap: 5px;
     }
+}
 
-    .product-list_3 {
-        display: grid;
+@media (min-width: 700px) {
+    .product-list_2 {
         grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 5px;
-
     }
+}
